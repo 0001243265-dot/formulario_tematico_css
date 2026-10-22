@@ -1,100 +1,204 @@
+
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburqueria L.A</title>
+    <title>Hamburgueria L.A</title>
 </head>
-<body   margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #6e92a7;
-            color: #f8fafc;
-            line-height: 1.6;
-">
-    <h1 style=" margin: 1px; color:blue; ">Hamburqueria L.A</h1>
-    <nav>
-            <a href="index.html">Pagina Inicial</a>
-            <a href="cardápio.html">Cardápio</a>
-            <a href="#unidades">Conheça nossas unidades</a>
-            <a href="#contato>">Entre em contato</a>
-    </nav>
-    <section id="sobre">
-        <p>Bem-vindo à Hamburgueria L.A! Nós não fazemos apenas lanches; nós criamos experiências memoráveis em forma de hambúrguer.
-Nossa jornada começou com um objetivo simples: transformar ingredientes frescos e selecionados no melhor blend artesanal que você já provou. 
-Cada disco de carne é moldado diariamente, grelhado na perfeição e servido em um pão sempre macio e quentinho.</p>
 
-        <main>
-    <section id="apresentacao">
+<body style="margin: 0; font-family: Arial, Helvetica, sans-serif; background-color: #6e92a7; color: #f8fafc; line-height: 1.6;">
+
+    <header style="background-color: #263746; padding: 20px; text-align: center;">
+        <h1 style="margin: 0 0 15px; color: #ffcc33;">🍔 Hamburgueria L.A</h1>
+
+        <nav style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+            <a href="#inicio" style="color: white; text-decoration: none; font-weight: bold;">Página Inicial</a>
+            <a href="#destaques" style="color: white; text-decoration: none; font-weight: bold;">Cardápio</a>
+            <a href="#unidades" style="color: white; text-decoration: none; font-weight: bold;">Conheça nossas unidades</a>
+            <a href="#contato" style="color: white; text-decoration: none; font-weight: bold;">Entre em contato</a>
+        </nav>
+    </header>
+
+    <main id="inicio" style="max-width: 1100px; margin: auto; padding: 20px;">
+
+        <section id="sobre" style="text-align: center; padding: 20px 0;">
+            <h2 style="color: #ffdf70;">Bem-vindo à Hamburgueria L.A!</h2>
+
+            <p style="font-size: 18px;">
+                Nós não fazemos apenas lanches; criamos experiências memoráveis em forma de hambúrguer.
+                Nossa jornada começou com um objetivo simples: transformar ingredientes frescos e
+                selecionados no melhor hambúrguer artesanal que você já provou.
+                Cada hambúrguer é preparado com cuidado e servido em um pão macio e quentinho.
+            </p>
         </section>
 
-    <section id="destaques">
-        <h2>Por que escolher o nosso Burguer?</h2>
-        <h>Selecionamos nossos fornecedores a dedo para garantir saladas frescas, queijos perfeitamente derretidos e molhos artesanais exclusivos.</h>
-            <h>Textura suculenta e aquele sabor defumado inconfundível que você só encontra aqui.</h>
-            <h> Da cozinha até a sua mesa (ou embalagem de entrega), tudo é preparado com o máximo de cuidado e higiene.</h>
-
-        <article>
-            <h3>Hambúrguer Clássico</h3>
-
-            <img
-                src="istockphoto-2061716709-612x612.jpg"
-                alt="Hambúrguer clássico com carne, queijo,
-                alface e tomate"
-                width="300"
-            >
+        <section id="destaques" style="margin-bottom: 35px;">
+            <h2 style="color: #ffdf70;">Por que escolher nossos burgers?</h2>
 
             <p>
-                Uma combinação deliciosa de carne grelhada,
-                queijo, alface, tomate e pão macio.
+                Selecionamos nossos fornecedores para garantir saladas frescas,
+                queijos perfeitamente derretidos e molhos artesanais exclusivos.
+                Tudo é preparado com cuidado e higiene.
             </p>
-        </article>
 
-        <article>
-            <h3>Cheddar Bacon</h3>
+            <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
 
-            <img
-                src="images (2).jpg"
-                alt="Hambúrguer com queijo cheddar derretido
-                e fatias crocantes de bacon"
-                width="300"
-            >
+                <article style="flex: 1 1 230px; max-width: 300px; padding: 18px; background-color: #f8fafc; color: #263746; border-radius: 12px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+                    <h3 style="color: #d62828;">Hambúrguer Clássico</h3>
+
+                    <img
+                        src="istockphoto-2061716709-612x612.jpg"
+                        alt="Hambúrguer clássico com carne, queijo, alface e tomate"
+                        style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;"
+                    >
+
+                    <p>
+                        Uma combinação deliciosa de carne grelhada,
+                        queijo, alface, tomate e pão macio.
+                    </p>
+                </article>
+
+                <article style="flex: 1 1 230px; max-width: 300px; padding: 18px; background-color: #f8fafc; color: #263746; border-radius: 12px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+                    <h3 style="color: #d62828;">Cheddar Bacon</h3>
+
+                    <img
+                        src="images (2).jpg"
+                        alt="Hambúrguer com cheddar derretido e bacon crocante"
+                        style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;"
+                    >
+
+                    <p>
+                        Para quem gosta de sabor marcante:
+                        carne suculenta, cheddar cremoso e bacon crocante.
+                    </p>
+                </article>
+
+                <article style="flex: 1 1 230px; max-width: 300px; padding: 18px; background-color: #f8fafc; color: #263746; border-radius: 12px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+                    <h3 style="color: #d62828;">Hambúrguer Vegetariano</h3>
+
+                    <img
+                        src="gettyimages-1359499287-612x612.jpg"
+                        alt="Hambúrguer vegetariano com vegetais frescos"
+                        style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;"
+                    >
+
+                    <p>
+                        Uma opção saborosa preparada com hambúrguer vegetal
+                        e ingredientes frescos.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="nutricao" style="margin-bottom: 35px;">
+            <h2 style="color: #ffdf70;">Informações nutricionais</h2>
 
             <p>
-                Para quem gosta de sabor marcante:
-                carne suculenta, cheddar cremoso e bacon.
+                Quer saber quantas calorias cada hambúrguer possui
+                e quais ingredientes podem causar alergias?
+                Consulte nosso cardápio completo.
             </p>
-        </article>
 
-        <article>
-            <h3>Hambúrguer Vegetariano</h3>
-
-            <img
-                src="gettyimages-1359499287-612x612.jpg"
-                alt="Hambúrguer vegetariano com vegetais frescos
-                e pão artesanal"
-                width="300"
-            >
-
-            <p>
-                Uma opção saborosa preparada com hambúrguer
-                vegetal e ingredientes frescos.
-            </p>
-        </article>
-    </section>
-
-    <section id="nutricao">
-        <h2>Conheça as informações nutricionais</h2>
-
-        <p>
-            Quer saber quantas calorias cada hambúrguer possui
-            e quais ingredientes podem causar alergias?
-            Consulte nosso cardápio completo.
-        </p>
-
-        <p>
-            <a href="cardápio.html">
+            <a href="cardápio.html" style="display: inline-block; background-color: #d62828; color: white; text-decoration: none; padding: 12px 20px; border-radius: 8px; font-weight: bold;">
                 Confira nosso cardápio
             </a>
-        </p>
-    </section>
-</main>
+        </section>
+
+        <section id="unidades" style="margin-bottom: 35px;">
+            <h2 style="color: #ffdf70;">Conheça nossas unidades</h2>
+
+            <p>
+                Entre em contato conosco para saber mais sobre nossas unidades
+                e horários de atendimento.
+            </p>
+        </section>
+
+        <section id="contato" style="max-width: 550px; margin: 40px auto; padding: 30px; background-color: #f8fafc; color: #263746; border-radius: 15px; border-top: 7px solid #e63946; box-shadow: 0 5px 15px rgba(0,0,0,0.25);">
+
+            <h2 style="text-align: center; color: #d62828; margin-top: 0;">Entre em contato</h2>
+
+            <p style="text-align: center; color: #526575;">
+                Tem dúvidas ou sugestões? Envie uma mensagem para nós!
+            </p>
+
+            <form action="#" method="post">
+
+                <label for="nome" style="display: block; margin: 15px 0 6px; font-weight: bold;">Nome completo:</label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required
+                    style="display: block; width: 100%; padding: 12px; box-sizing: border-box; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 15px;"
+                >
+
+                <label for="email" style="display: block; margin: 15px 0 6px; font-weight: bold;">E-mail:</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    required
+                    style="display: block; width: 100%; padding: 12px; box-sizing: border-box; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 15px;"
+                >
+
+                <label for="telefone" style="display: block; margin: 15px 0 6px; font-weight: bold;">Telefone:</label>
+
+                <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    placeholder="(00) 00000-0000"
+                    style="display: block; width: 100%; padding: 12px; box-sizing: border-box; border: 2px solid #cbd5e1; border-radius: 8px; font-size: 15px;"
+                >
+
+                <label for="assunto" style="display: block; margin: 15px 0 6px; font-weight: bold;">Motivo do contato:</label>
+
+                <select
+                    id="assunto"
+                    name="assunto"
+                    required
+                    style="display: block; width: 100%; padding: 12px; box-sizing: border-box; border: 2px solid #cbd5e1; border-radius: 8px; background-color: white; font-size: 15px;"
+                >
+                    <option value="">Selecione uma opção</option>
+                    <option value="pedido">Dúvidas sobre pedidos</option>
+                    <option value="cardapio">Informações do cardápio</option>
+                    <option value="sugestao">Sugestões</option>
+                    <option value="reclamacao">Reclamações</option>
+                    <option value="outro">Outro assunto</option>
+                </select>
+
+                <label for="mensagem" style="display: block; margin: 15px 0 6px; font-weight: bold;">Sua mensagem:</label>
+
+                <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="5"
+                    placeholder="Escreva sua mensagem aqui..."
+                    required
+                    style="display: block; width: 100%; padding: 12px; box-sizing: border-box; border: 2px solid #cbd5e1; border-radius: 8px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; resize: vertical;"
+                ></textarea>
+
+                <button
+                    type="submit"
+                    style="width: 100%; margin-top: 22px; padding: 14px; border: none; border-radius: 8px; background-color: #d62828; color: white; font-size: 17px; font-weight: bold; cursor: pointer;"
+                >
+                    Enviar mensagem 
+                </button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer style="text-align: center; background-color: #263746; color: white; padding: 20px;">
+        <p>&copy; 2026 Hamburgueria L.A - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
